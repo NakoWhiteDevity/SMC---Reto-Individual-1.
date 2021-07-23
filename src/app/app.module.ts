@@ -6,9 +6,11 @@ import { BarralateralComponent } from './componentes/barralateral/barralateral.c
 import { PrincipalComponent } from './componentes/principal/principal.component';
 import { PrimeroComponent } from './componentes/principal/primero/primero.component';
 import { PuestobuscadoComponent } from './componentes/principal/puestobuscado/puestobuscado.component';
+import { DataviztestingComponent } from './componentes/dataviztesting/dataviztesting.component';
 
 const routes: Routes = [
   {path:'',component:PrincipalComponent},
+  {path:'dv',component:DataviztestingComponent},
   {path:'**',redirectTo:'',pathMatch:'full'}
 ];
 
@@ -19,6 +21,7 @@ const routes: Routes = [
     PrincipalComponent,
     PrimeroComponent,
     PuestobuscadoComponent,
+    DataviztestingComponent,
   ],
   imports: [
     BrowserModule,
