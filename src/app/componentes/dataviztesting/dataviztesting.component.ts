@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Chart } from 'node_modules/chart.js';
 
 @Component({
   selector: 'app-dataviztesting',
@@ -7,9 +8,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DataviztestingComponent implements OnInit {
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
+  //https://www.youtube.com/watch?v=ZCYiUCcTo20
+  
+  constructor() {}
+  
+  ngOnInit(): void {}
 
 }
