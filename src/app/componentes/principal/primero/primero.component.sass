@@ -23,7 +23,7 @@
     .perfilfoto
         min-width: 100%
         background-color: green
-        min-height: 35%
+        min-height: 200px
         max-height: 35%
         background-image: url("./img/test.jpg")
         .fotousuario
@@ -33,11 +33,36 @@
             max-width: 150px
             background-image: url("./img/terry-crews.jpg")
             position: fixed
+            margin: 15px
+            top: 25%
+            border-radius: 15px
+            border: 3px solid black
     .perfilcuerpo
         min-width: 100%
         background-color: blue
         min-height: 65%
         max-height: 65%
+        .superior
+            display: flex
+            flex-wrap: nowrap
+            flex-direction: row
+            .slot
+                min-width: 33%
+            .nombreubi
+                text-align: center
+                i
+                    margin-left: 30px
+                    margin-right: 5px
+            .correotel
+                text-align: right
+        .medio
+            display: flex
+            justify-content: center
+            align-items: center
+            margin: 0px 20%
+            p
+                text-align: justify
+                margin-top: 15px
         
 //background-size: cover
 //background-repeat: no-repeat
